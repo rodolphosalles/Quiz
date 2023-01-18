@@ -35,7 +35,7 @@ form.addEventListener("submit", (event) => {
       if (counter === score) clearInterval(timer);
 
       finalScoreContainer.querySelector("span").textContent = ` ${counter++}%`;
-    }, 100);
+    }, 10);
   };
 
   getUserAnswer();
